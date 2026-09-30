@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Diversidade Biológica — Material de Estudo | Professora Samanta</title>
+<title>Aula 2 de Ciências — Diversidade Biológica | Professora Samanta</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,600&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -171,6 +171,18 @@
     padding:14px; display:flex; align-items:center; justify-content:center;
   }
   .diagram-cap{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-soft); text-align:center; margin-top:8px;}
+
+  .public-figure{margin:0 0 12px;}
+  .public-figure .image-frame{
+    background:var(--cream); border:1px solid var(--line); border-radius:14px;
+    padding:12px; display:flex; align-items:center; justify-content:center; min-height:180px;
+  }
+  .public-figure img{display:block; width:100%; max-width:100%; height:220px; object-fit:contain; border-radius:10px; background:#fff;}
+  .public-figure.tall img{height:260px;}
+  .public-figure figcaption{font-family:'IBM Plex Mono',monospace; font-size:10.5px; line-height:1.45; color:var(--ink-soft); text-align:center; margin-top:8px;}
+  .public-figure figcaption a{color:var(--water); text-decoration:none;}
+  .public-figure figcaption a:hover{text-decoration:underline;}
+  .source-note{font-size:10.5px; color:var(--ink-soft); margin:7px 0 0; text-align:center;}
 
   /* ===== QUIZ ===== */
   .quiz-intro{
@@ -393,14 +405,14 @@
 
 <header class="site">
   <div class="header-inner">
-    <img src="Logo preparatorio1.jpeg" alt="Logo Curso Preparatório Professora Samanta">
-    <div class="header-tag">Material de Estudo<strong>Ciências da Natureza</strong></div>
+    <img src="https://samanta-preparatorios.github.io/Aula-1-de-Ciencias/Logo%20preparatorio1.jpeg" alt="Logo Curso Preparatório Professora Samanta">
+    <div class="header-tag">AULA 2 · Material de Estudo<strong>Ciências da Natureza</strong></div>
   </div>
 </header>
 
 <section class="hero wrap">
-  <span class="eyebrow">Diversidade Biológica · Conteúdo Programático</span>
-  <h1 class="title">Vírus, reinos<br>e a <em>saúde humana</em></h1>
+  <span class="eyebrow">AULA 2 · Diversidade Biológica · Conteúdo Programático</span>
+  <h1 class="title">Diversidade Biológica<br>e suas <em>relações com a saúde humana</em></h1>
   <p class="hero-sub">Revisão completa e questionário diagnóstico sobre a diversidade biológica e suas relações com a saúde: vírus, Monera, Protista, Fungi, Animalia e Plantae — estrutura, doenças, vacinas e importância biotecnológica.</p>
   <div class="hero-meta">
     <div><strong>6</strong>temas</div>
@@ -408,6 +420,7 @@
     <div><strong>3</strong>níveis de dificuldade</div>
     <div><strong>1</strong>diagnóstico final</div>
   </div>
+  <p class="source-note" style="margin-top:18px;text-align:left;">Imagens de apoio selecionadas no Wikimedia Commons em versões identificadas como domínio público ou CC0. Os links nas legendas levam às respectivas páginas de licença e fonte.</p>
 
   <svg class="tree-divider" viewBox="0 0 980 64" preserveAspectRatio="none">
     <g stroke="#2F6E8E" stroke-width="1.2" opacity="0.3" fill="none">
@@ -430,9 +443,9 @@
 <section class="wrap" id="revisao">
   <div class="section-head">
     <span class="section-num">PARTE 1</span>
-    <h2 class="section-title">Revisão dos conteúdos</h2>
+    <h2 class="section-title">Revisão dos conteúdos da Aula 2</h2>
   </div>
-  <p class="section-desc">As características essenciais de cada tema — leia antes de responder ao questionário.</p>
+  <p class="section-desc">Aula 2 · Diversidade Biológica e suas relações com a saúde humana. Leia esta síntese antes de responder ao questionário.</p>
 
   <div class="review-grid">
 
@@ -452,19 +465,12 @@
           </ul>
         </div>
         <div>
-          <div class="diagram-box">
-            <svg width="100%" height="150" viewBox="0 0 260 150" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="130" cy="75" r="52" fill="#2F6E8E" opacity="0.12"/>
-              <circle cx="130" cy="75" r="38" fill="none" stroke="#2F6E8E" stroke-width="3"/>
-              <g fill="#F5871F">
-                <circle cx="130" cy="37" r="7"/><circle cx="163" cy="55" r="7"/><circle cx="163" cy="95" r="7"/>
-                <circle cx="130" cy="113" r="7"/><circle cx="97" cy="95" r="7"/><circle cx="97" cy="55" r="7"/>
-              </g>
-              <path d="M115 68 Q130 60 145 68 Q150 80 145 92 Q130 100 115 92 Q110 80 115 68 Z" fill="#345328" opacity="0.85"/>
-              <text x="130" y="140" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5B5148">capsídeo + material genético</text>
-            </svg>
-          </div>
-          <p class="diagram-cap">Estrutura geral de um vírus (esquema)</p>
+          <figure class="public-figure">
+            <div class="image-frame">
+              <img loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Basic_Scheme_of_Virus_en.svg" alt="Esquema da estrutura básica de um vírus" onerror="this.style.display='none'">
+            </div>
+            <figcaption>Estrutura básica de um vírus. <a href="https://commons.wikimedia.org/wiki/File:Basic_Scheme_of_Virus_en.svg" target="_blank" rel="noopener noreferrer">Ver fonte</a></figcaption>
+          </figure>
           <div class="chips">
             <span class="chip water">DNA ou RNA</span>
             <span class="chip">Capsídeo proteico</span>
@@ -490,6 +496,12 @@
           </ul>
         </div>
         <div>
+          <figure class="public-figure">
+            <div class="image-frame">
+              <img loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Staphylococcus_Aureus_%28NIH_BioArt_773_-_792642%29.svg" alt="Ilustração de bactéria Staphylococcus aureus" onerror="this.style.display='none'">
+            </div>
+            <figcaption>Bactéria ilustrada em material biomédico do NIH/NIAID. <a href="https://commons.wikimedia.org/wiki/File:Staphylococcus_Aureus_%28NIH_BioArt_773_-_792642%29.svg" target="_blank" rel="noopener noreferrer">Ver fonte</a></figcaption>
+          </figure>
           <table class="mini-table">
             <tr><th>Doença</th><th>Agente</th><th>Vacina</th></tr>
             <tr><td>Tétano</td><td>Clostridium tetani</td><td>DTP / dT</td></tr>
@@ -521,6 +533,12 @@
           </ul>
         </div>
         <div>
+          <figure class="public-figure">
+            <div class="image-frame">
+              <img loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Plasmodium_%28NIH_BioArt_414_-_633679%29.svg" alt="Ilustração do protozoário Plasmodium" onerror="this.style.display='none'">
+            </div>
+            <figcaption>Plasmodium, agente da malária, em ilustração do NIH/NIAID. <a href="https://commons.wikimedia.org/wiki/File:Plasmodium_%28NIH_BioArt_414_-_633679%29.svg" target="_blank" rel="noopener noreferrer">Ver fonte</a></figcaption>
+          </figure>
           <table class="mini-table">
             <tr><th>Doença</th><th>Agente</th><th>Transmissão</th></tr>
             <tr><td>Malária</td><td>Plasmodium sp.</td><td>Mosquito Anopheles</td></tr>
@@ -551,17 +569,12 @@
           </ul>
         </div>
         <div>
-          <div class="diagram-box">
-            <svg width="100%" height="140" viewBox="0 0 260 140" xmlns="http://www.w3.org/2000/svg">
-              <path d="M60 90 Q60 40 130 40 Q200 40 200 90 Z" fill="#E0A100" opacity="0.85"/>
-              <rect x="118" y="88" width="24" height="42" rx="6" fill="#F1E6D3" stroke="#5B5148" stroke-width="1.5"/>
-              <circle cx="85" cy="70" r="3" fill="#345328"/><circle cx="150" cy="55" r="3" fill="#345328"/>
-              <circle cx="175" cy="75" r="3" fill="#345328"/><circle cx="115" cy="52" r="3" fill="#345328"/>
-              <line x1="130" y1="130" x2="130" y2="136" stroke="#5B5148" stroke-width="2"/>
-              <line x1="60" y1="130" x2="200" y2="130" stroke="#5B5148" stroke-width="1.5" stroke-dasharray="3 3"/>
-            </svg>
-          </div>
-          <p class="diagram-cap">Corpo de frutificação de um fungo (esquema)</p>
+          <figure class="public-figure">
+            <div class="image-frame">
+              <img loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Fungus_%28PSF%29.png" alt="Ilustração de um fungo" onerror="this.style.display='none'">
+            </div>
+            <figcaption>Ilustração de fungo. <a href="https://commons.wikimedia.org/wiki/File:Fungus_%28PSF%29.png" target="_blank" rel="noopener noreferrer">Ver fonte</a></figcaption>
+          </figure>
           <div class="chips">
             <span class="chip">Parede de quitina</span>
             <span class="chip">Absorção</span>
@@ -586,6 +599,12 @@
           </ul>
         </div>
         <div>
+          <figure class="public-figure tall">
+            <div class="image-frame">
+              <img loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Taenia_saginataL.jpg" alt="Imagem de Taenia saginata" onerror="this.style.display='none'">
+            </div>
+            <figcaption>Taenia saginata, helminto de relevância médica. <a href="https://commons.wikimedia.org/wiki/File:Taenia_saginataL.jpg" target="_blank" rel="noopener noreferrer">Ver fonte</a></figcaption>
+          </figure>
           <table class="mini-table">
             <tr><th>Verminose</th><th>Agente</th><th>Via de infecção</th></tr>
             <tr><td>Ascaridíase</td><td>Ascaris lumbricoides</td><td>Ingestão de ovos</td></tr>
@@ -619,6 +638,12 @@
           </ul>
         </div>
         <div>
+          <figure class="public-figure">
+            <div class="image-frame">
+              <img loading="lazy" referrerpolicy="no-referrer" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Angiosperm_life_cycle_diagram-en.svg" alt="Diagrama do ciclo de vida de uma angiosperma" onerror="this.style.display='none'">
+            </div>
+            <figcaption>Ciclo de vida de uma angiosperma. <a href="https://commons.wikimedia.org/wiki/File:Angiosperm_life_cycle_diagram-en.svg" target="_blank" rel="noopener noreferrer">Ver fonte</a></figcaption>
+          </figure>
           <table class="mini-table">
             <tr><th>Grupo</th><th>Vasos</th><th>Semente</th></tr>
             <tr><td>Briófitas</td><td>Não</td><td>Não</td></tr>
