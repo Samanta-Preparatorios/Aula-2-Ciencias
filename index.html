@@ -334,9 +334,17 @@
   }
   .ref-card .ref-text p{margin:0; color:var(--ink-soft); font-size:0.94rem; max-width:520px;}
   .ref-tag{
+    display:inline-flex; align-items:center; justify-content:center;
     font-family:'IBM Plex Mono',monospace; font-size:11.5px; text-transform:uppercase; letter-spacing:0.08em;
     background:rgba(47,110,142,0.12); color:var(--water); padding:9px 18px; border-radius:100px;
-    white-space:nowrap;
+    white-space:nowrap; text-decoration:none; cursor:pointer;
+    border:1px solid transparent; transition:transform .15s, background .15s, border-color .15s;
+  }
+  .ref-tag:hover{
+    background:rgba(47,110,142,0.18); border-color:rgba(47,110,142,0.28); transform:translateY(-1px);
+  }
+  .ref-tag:focus-visible{
+    outline:3px solid rgba(245,135,31,0.45); outline-offset:3px;
   }
 
   /* ===== CONTATO ===== */
@@ -741,7 +749,7 @@
       <h4>🌱 Ecologia — Teias, ciclos e equilíbrios da vida</h4>
       <p>Este conteúdo dá continuidade ao material anterior de Ecologia. Recomenda-se revisar componentes do ecossistema, cadeias e teias alimentares, relações ecológicas, ecossistemas e poluição antes de avançar, já que os dois assuntos costumam aparecer combinados nas provas de Ciências da Natureza.</p>
     </div>
-    <span class="ref-tag">Consulte o material anterior</span>
+    <a class="ref-tag" href="https://samanta-preparatorios.github.io/Aula-1-de-Ciencias/" target="_self" rel="noopener noreferrer">Consulte o material anterior</a>
   </div>
 </section>
 
